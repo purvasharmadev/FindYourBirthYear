@@ -5,9 +5,14 @@ int main()
 {
     int year = 2020;
     int byear;
-    printf("enter you birth year\n");
+    char name[100];
+    printf("enter your Name \n");
+    scanf("%s",&name);
+    printf("enter you birth year example(1999,1997,etc.) \n");
     scanf("%d",&byear);
-    printf("your age is %d ",year - byear);
+    printf("Your name is %s \n", name);
+    printf("your age is %d \n",year - byear);
+    
 
     return 0;
 }
